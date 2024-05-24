@@ -101,4 +101,22 @@ collections:
       - { label: 'Identificador', name: 'templateKey', widget: hidden, default: partner }
       - { label: 'Nome', name: 'title', widget: string }
       - { label: 'Descrição', name: 'description', widget: markdown }
+
+  - name: 'information'
+    label: 'Informações'
+    locale: 'pt'
+    files:
+      - label: 'Informações de contato'
+        name: 'contact-info'
+        file: 'src/data/contact-info.json'
+        fields: # TODO: create widgets for email and phone
+          - { label: 'Email de contato', name: 'email', widget: string }
+          - { label: 'Telefone de contato', name: 'phone', widget: string }
+      - label: 'Informações da marca'
+        name: 'brand-info'
+        file: 'src/data/brand-info.json'
+        fields:
+          - { label: 'Logo', name: 'logo', widget: image }
+          - { label: 'Cor primária', name: 'primary_color', widget: string } # TODO: create color widget
+          - { label: 'Cor secundária', name: 'secondary_color', widget: string }
     
