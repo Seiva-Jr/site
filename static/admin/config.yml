@@ -119,4 +119,6 @@ collections:
           - { label: 'Logo', name: 'logo', widget: image }
           - { label: 'Cor primária', name: 'primary_color', widget: string } # TODO: create color widget
           - { label: 'Cor secundária', name: 'secondary_color', widget: string }
+          - { label: 'Cor do texto', name: 'text_color', widget: string }
+          - { label: 'Fonte', name: 'text_family', widget: string } # TODO: create font family widget
     
