@@ -16,7 +16,7 @@ export const pageData = graphql`
   query IndexPageServicesQuery {
     membros: allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "member" } } }
-      sort: { fields: frontmatter___name }
+      sort: { frontmatter: { name: ASC } }
     ) {
       nodes {
         frontmatter {
