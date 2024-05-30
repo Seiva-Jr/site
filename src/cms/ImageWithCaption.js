@@ -32,7 +32,7 @@ const ImageWithCaption = {
 
     return (
       <figure>
-        <img src={src} alt="" />
+        <img src={src} alt={props.caption} />
         <figcaption>{props.caption}</figcaption>
       </figure>
     );

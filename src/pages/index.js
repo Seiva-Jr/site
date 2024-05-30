@@ -1,7 +1,5 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import PageLayout from '../components/layout/Layout';
 import Seo from '../components/Seo';
@@ -222,7 +220,7 @@ export default function Index({ data }) {
 
               <p>Ou nos envie um email</p>
               <a href="mailto:contato@seivajr.com.br">
-                <FontAwesomeIcon icon={faEnvelope} />
+                {/* <FontAwesomeIcon icon={faEnvelope} /> */}
                 <span>seiva.ambientaljr@gmail.com</span>
               </a>
             </div>

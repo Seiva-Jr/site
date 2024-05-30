@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { StaticImage } from 'gatsby-plugin-image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 
 import Button from '../Button';
 import {
@@ -48,7 +48,7 @@ export default function Header() {
           onClick={toggle}
           onKeyDown={handleKeyDown}
         >
-          <FontAwesomeIcon icon={isOpen ? faClose : faBars} size="lg" />
+          {/* <FontAwesomeIcon icon={isOpen ? faClose : faBars} size="lg" /> */}
         </button>
 
         <ul style={{ top: navRef.current?.clientHeight || '8vh' }} className={linksClassName}>

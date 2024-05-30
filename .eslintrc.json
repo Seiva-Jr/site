@@ -7,7 +7,6 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "airbnb",
     "plugin:prettier/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended"

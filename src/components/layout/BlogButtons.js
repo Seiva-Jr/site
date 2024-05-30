@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'gatsby';
 
 const BlogButtons = ({ pageContext }) => {
@@ -21,7 +21,7 @@ const BlogButtons = ({ pageContext }) => {
       {!isFirst && (
         <span className="mr-4">
           <Link to={prev} rel="prev">
-            <FontAwesomeIcon icon={faArrowLeft} className="text-primary-default" />
+            {/* <FontAwesomeIcon icon={faArrowLeft} className="text-primary-default" /> */}
             <span className="ml-2">Anterior</span>
           </Link>
         </span>
@@ -29,9 +29,8 @@ const BlogButtons = ({ pageContext }) => {
       {nums.map((num) => (
         <div
           key={num}
-          className={`ml-4 ${
-            num === currentPage && 'text-primary-darker bg-gray-200 px-2 rounded-sm'
-          }`}
+          className={`ml-4 ${num === currentPage && 'text-primary-darker bg-gray-200 px-2 rounded-sm'
+            }`}
         >
           <Link to={num === 1 ? `/blog` : `/blog/${num}`}>{num}</Link>
         </div>
@@ -40,7 +39,7 @@ const BlogButtons = ({ pageContext }) => {
         <span className="ml-4">
           <Link to={`/blog/${next}`} rel="next">
             <span className="mr-2">Próximo</span>
-            <FontAwesomeIcon icon={faArrowRight} className="text-primary-default" />
+            {/* <FontAwesomeIcon icon={faArrowRight} className="text-primary-default" /> */}
           </Link>
         </span>
       )}

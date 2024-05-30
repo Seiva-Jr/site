@@ -21,7 +21,7 @@ module.exports = {
   },
 
   plugins: [
-    `gatsby-plugin-netlify`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-purgecss`,
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
@@ -89,12 +89,6 @@ module.exports = {
     },
     `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
@@ -113,7 +107,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-anchor-links`,
-    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

@@ -1,10 +1,10 @@
 backend:
-  name: git-gateway
-  # name: test-repo
+  # name: git-gateway
+  name: test-repo
   branch: main
   use_large_media_transforms_in_media_library: true
 
-local_backend: true
+# local_backend: true
 media_folder: static/images/uploads
 public_folder: ../../static/images/uploads
 publish_mode: editorial_workflow
@@ -117,8 +117,8 @@ collections:
         file: 'src/data/brand-info.json'
         fields:
           - { label: 'Logo', name: 'logo', widget: image }
-          - { label: 'Cor primária', name: 'primary_color', widget: string } # TODO: create color widget
-          - { label: 'Cor secundária', name: 'secondary_color', widget: string }
-          - { label: 'Cor do texto', name: 'text_color', widget: string }
+          - { label: 'Cor primária', name: 'primary_color', widget: color }
+          - { label: 'Cor secundária', name: 'secondary_color', widget: color }
+          - { label: 'Cor do texto', name: 'text_color', widget: color }
           - { label: 'Fonte', name: 'text_family', widget: string } # TODO: create font family widget
     
