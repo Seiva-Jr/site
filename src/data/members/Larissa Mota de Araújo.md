@@ -1,7 +1,7 @@
 ---
 templateKey: member
 name: Larissa Mota de Araújo
-ga: Comercial & Projetos
-cargo: Diretora
+ga: Administrativo-Financeiro
+cargo: Presidente
 memberImage: ../../../static/images/uploads/LarissaMotaDeAraujo.jpg
 ---

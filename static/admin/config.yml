@@ -46,11 +46,11 @@ collections:
       - label: 'Grupo Administrativo'
         name: 'ga'
         widget: select
-        options: ['Comercial & Projetos', 'Gestão de Talentos', 'Presidência', 'Marketing', 'Publicidade & Propaganda', 'Financeiro']
+        options: ['Vendas', 'Administrativo-Financeiro', 'Projetos', 'Gestão de Pessoas']
       - label: 'Cargo'
         name: 'cargo'
         widget: select
-        options: ['Sênior', 'Júnior', 'Conselheiro', 'Conselheira', 'Diretor', 'Diretora', 'Presidente', 'Vice-Presidente']
+        options: ['Trainee', 'Assessor', 'Assessora', 'Assessore', 'Gerente', 'Diretor', 'Diretora', 'Diretore', 'Presidente', 'Vice-Presidente']
       - { name: 'memberImage', label: 'Foto', widget: image }
 
   # Arquivos com descrições de nossos serviços prestados
