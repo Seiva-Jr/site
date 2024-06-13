@@ -221,9 +221,9 @@ export default function Index({ data }) {
               <Socials />
 
               <p>Ou nos envie um email</p>
-              <a href="mailto:contato@seivajr.com.br">
+              <a href="mailto:vendas@seivajr.com.br">
                 <FontAwesomeIcon icon={faEnvelope} />
-                <span>seiva.ambientaljr@gmail.com</span>
+                <span>vendas@seivajr.com.br</span>
               </a>
             </div>
           </div>
