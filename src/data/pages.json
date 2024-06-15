@@ -1,0 +1,21 @@
+{
+  "$schema": "../../.vscode/pages-config-schema.json",
+  "pages": [
+    {
+      "name": "Início",
+      "path": "/"
+    },
+    {
+      "name": "Sobre",
+      "path": "/sobre"
+    },
+    {
+      "name": "Serviços",
+      "path": "/servicos"
+    },
+    {
+      "name": "Blog",
+      "path": "/blog"
+    }
+  ]
+}
